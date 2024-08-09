@@ -140,9 +140,8 @@ public class mainApp {
     public static void playerTurn() {
         int x, y;
         do {
-            System.out.println("Ваш ход введите кординаты (Х)");
+            System.out.println("Ваш ход введите кординаты (Х Y)");
             x = scanner.nextInt() - 1;
-            System.out.println("Ваш ход введите кординаты (Y)");
             y = scanner.nextInt() - 1;
         } while (!ilCellEmty(x, y));
         map[x][y] = dot_X;
